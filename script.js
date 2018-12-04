@@ -1,7 +1,7 @@
 // alert('Hello World!');
-var x = 'siddharth ';
-var y = 'padwal';
+var fruits = 'apple';
+fruits = 'banana';
 
-var z = x + y;
+fruits = 'mango';
 
-document.getElementById('test').innerHTML = 'Hello ' + z;
+document.getElementById('test').innerHTML = fruits;
