@@ -38,13 +38,22 @@ var greetings = '';
 
 // 
 
-function multiplicationFunc(num1,num2,num3,num4){
-    var sum = (num1 * num4) + (num2 * num3);
-    return sum;
-}
+// function multiplicationFunc(num1,num2,num3,num4){
+//     var sum = (num1 * num4) + (num2 * num3);
+//     return sum;
+// }
+
+// function degreefunc(num){
+//     var fahr = (num * 9/5) + 32;
+
+//     return fahr;
+// }
 
 
 
 
-document.getElementById('test').innerHTML = multiplicationFunc(1,2,2,1);
+
+
+
+document.getElementById('test').innerHTML = degreefunc(10);
 
