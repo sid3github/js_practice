@@ -1,7 +1,17 @@
 // alert('Hello World!');
-var fruits = 'apple';
-fruits = 'banana';
+var coffeeLevel = 22;
 
-fruits = 'mango';
+var codingLevel = 8;
 
-document.getElementById('test').innerHTML = fruits;
+var greetings = '';
+
+if (coffeeLevel < codingLevel) {
+    greetings = 'Fill the coffee and start coding!';
+} else {
+    greetings = 'Just keep... coding!!';
+}
+
+
+
+document.getElementById('test').innerHTML = greetings;
+
