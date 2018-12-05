@@ -1,14 +1,29 @@
 // alert('Hello World!');
-var coffeeLevel = 22;
-
-var codingLevel = 8;
+var days = 'default';
 
 var greetings = '';
 
-if (coffeeLevel < codingLevel) {
-    greetings = 'Fill the coffee and start coding!';
-} else {
-    greetings = 'Just keep... coding!!';
+switch (days) {
+    case 0:
+        greetings = 'leg day!';
+        break;
+    case 1:
+        greetings = 'shoulder!';
+        break;
+    case 2:
+        greetings = 'arms!';
+        break;
+    case 3:
+        greetings = 'back!';
+        break;
+    case 4:
+        greetings = 'abs!';
+        break;
+    case 5:
+        greetings = 'rest day!';
+        break;
+    default:
+        greetings = 'do whatever you want!';
 }
 
 
