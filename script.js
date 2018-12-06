@@ -68,6 +68,10 @@ var greetings = '';
 // }
 
 
+// Binding functions to event.
+// function showDate(){
+//     document.getElementById('test').innerHTML = Date();
+// }
 
 
 
@@ -83,5 +87,12 @@ var greetings = '';
 
 
 
-document.getElementById('test').innerHTML = attribute.fullName();
+
+
+
+
+
+
+
+// document.getElementById('test').innerHTML = ;
 
