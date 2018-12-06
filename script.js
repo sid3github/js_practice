@@ -49,16 +49,39 @@ var greetings = '';
 //     return fahr;
 // }
 
-var myScore = 20;
+// var myScore = 20;
 
-function highestScore(){
-    var teamScore = 85;
-    return teamScore;
-}
+// function highestScore(){
+//     var teamScore = 85;
+//     return teamScore;
+// }
+
+// var attribute = {
+//     firstName: 'Siddharth ',
+//     lastName: 'Padwal',
+//     age: 26,
+//     height: 5.5,
+//     weight: 70,
+//     fullName: function(){
+//         return this.firstName + this.lastName;
+//     }
+// }
 
 
 
 
 
-document.getElementById('test').innerHTML = myScore;
+
+
+
+
+
+
+
+
+
+
+
+
+document.getElementById('test').innerHTML = attribute.fullName();
 
