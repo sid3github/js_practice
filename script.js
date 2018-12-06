@@ -49,11 +49,16 @@ var greetings = '';
 //     return fahr;
 // }
 
+var myScore = 20;
+
+function highestScore(){
+    var teamScore = 85;
+    return teamScore;
+}
 
 
 
 
 
-
-document.getElementById('test').innerHTML = degreefunc(10);
+document.getElementById('test').innerHTML = myScore;
 
