@@ -74,10 +74,33 @@ var greetings = '';
 // }
 
 
+//try and catch
+
+// try{
+//     aleert('hello world');
+// }catch(err){
+//     document.getElementById('test').innerHTML = err.message;
+// }
 
 
+function myError(){
+    var msg,x;
 
+    msg = document.getElementById('msg');
+    msg.innerHTML = '';
 
+    x = document.getElementById('some').value;
+    try {
+        if (x == '') throw 'please choose a number';
+        if (isNaN(x)) throw 'only numbers are allowed';
+        if (x <= 3) throw 'the number should be greater or equal than 3';
+    } catch(err) {
+        msg.innerHTML = 'Error is ' + err;
+    } finally {
+        document.getElementById('some').value = '';
+    }
+
+}
 
 
 
