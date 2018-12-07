@@ -83,24 +83,29 @@ var greetings = '';
 // }
 
 
-function myError(){
-    var msg,x;
+// function myError(){
+//     var msg,x;
 
-    msg = document.getElementById('msg');
-    msg.innerHTML = '';
+//     msg = document.getElementById('msg');
+//     msg.innerHTML = '';
 
-    x = document.getElementById('some').value;
-    try {
-        if (x == '') throw 'please choose a number';
-        if (isNaN(x)) throw 'only numbers are allowed';
-        if (x <= 3) throw 'the number should be greater or equal than 3';
-    } catch(err) {
-        msg.innerHTML = 'Error is ' + err;
-    } finally {
-        document.getElementById('some').value = '';
-    }
+//     x = document.getElementById('some').value;
+//     try {
+//         if (x == '') throw 'please choose a number';
+//         if (isNaN(x)) throw 'only numbers are allowed';
+//         if (x <= 3) throw 'the number should be greater or equal than 3';
+//     } catch(err) {
+//         msg.innerHTML = 'Error is ' + err;
+//     } finally {
+//         document.getElementById('some').value = '';
+//     }
 
-}
+// }
+
+
+// Numbers inbuilt methods
+// console.log(Math.random((Math.min(0,-1,25,41,1))));
+
 
 
 
