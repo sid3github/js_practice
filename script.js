@@ -141,9 +141,27 @@
 
 
 
+//Using function as an object.
 
+var player = {
+    name: 'Siddharth',
+    age: 26,
 
+    salary: function(monthly){
+        return('my salary is awesome',
+        console.log(this.age))
+    },
+    skills: [
+        {html: 'good'},
+        {javascript: 'moderate'}
+    ]
+    
+}
 
+player.salary(30000);
+console.log(player.skills);
+
+document.getElementById('test').innerHTML = player.name;
 
 
 
