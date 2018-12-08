@@ -143,28 +143,42 @@
 
 //Using function as an object.
 
-var player = {
-    name: 'Siddharth',
-    age: 26,
+// var player = {
+//     name: 'Siddharth',
+//     age: 26,
 
-    salary: function(monthly){
-        return('my salary is awesome',
-        console.log(this.age))
-    },
-    skills: [
-        {html: 'good'},
-        {javascript: 'moderate'}
-    ]
+//     salary: function(monthly){
+//         return('my salary is awesome',
+//         console.log(this.age))
+//     },
+//     skills: [
+//         {html: 'good'},
+//         {javascript: 'moderate'}
+//     ]
     
+// }
+
+// player.salary(30000);
+// console.log(player.skills);
+
+// document.getElementById('test').innerHTML = player.name;
+
+
+var player = function(){
+    var runs, batStyle;
 }
 
-player.salary(30000);
-console.log(player.skills);
+viratKohli = new player;
+viratKohli.runs = 6553;
+viratKohli.batStyle = 'right-handed';
 
-document.getElementById('test').innerHTML = player.name;
+console.log(viratKohli.runs);
 
+sachinTendulkar = new player;
+sachinTendulkar.runs = 15566;
+sachinTendulkar.batStyle = 'right-handed';
 
-
+console.log(sachinTendulkar.runs);
 
 
 
