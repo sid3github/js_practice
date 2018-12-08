@@ -116,7 +116,8 @@
 // document.getElementById('test').innerHTML = txt;
 
 
-// basic Function
+// basic Function.
+
 // var sum;
 
 // function mathFunc(num){
@@ -127,6 +128,21 @@
 // mathFunc(1);
 
 // document.getElementById('test').innerHTML = sum;
+
+
+
+// Another way of writting functions and return statement. 
+
+// var maxPoints = function highPoints(currentPoints){
+//     return (
+//         console.log(5 * currentPoints)
+//     )
+// }(5);
+
+
+
+
+
 
 
 
