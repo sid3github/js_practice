@@ -107,6 +107,15 @@ var greetings = '';
 // console.log(Math.random((Math.min(0,-1,25,41,1))));
 
 
+//regex 
+
+var str = 'apple Apple APPLE APPle appLE';
+
+var txt = str.replace(/([A-Z])\w+/gmi,'google');
+
+document.getElementById('test').innerHTML = txt;
+
+
 
 
 
