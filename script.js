@@ -1,7 +1,7 @@
 // alert('Hello World!');
 // var days = 'default';
 
-var greetings = '';
+// var greetings = '';
 
 // switch (days) {
 //     case 0:
@@ -109,11 +109,28 @@ var greetings = '';
 
 //regex 
 
-var str = 'apple Apple APPLE APPle appLE';
+// var str = 'apple Apple APPLE APPle appLE';
 
-var txt = str.replace(/([A-Z])\w+/gmi,'google');
+// var txt = str.replace(/([A-Z])\w+/gmi,'google');
 
-document.getElementById('test').innerHTML = txt;
+// document.getElementById('test').innerHTML = txt;
+
+
+// basic Function
+// var sum;
+
+// function mathFunc(num){
+//      sum = (5 * 2 - 10 * num);
+//     return sum;
+// }
+
+// mathFunc(1);
+
+// document.getElementById('test').innerHTML = sum;
+
+
+
+
 
 
 
