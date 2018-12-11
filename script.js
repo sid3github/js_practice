@@ -164,21 +164,31 @@
 // document.getElementById('test').innerHTML = player.name;
 
 
+var umpire = function(){
+    return('umpire\'s are always right');
+}
+
 var player = function(){
     var runs, batStyle;
 }
 
+
+player.prototype.umpire = umpire;
 viratKohli = new player;
 viratKohli.runs = 6553;
 viratKohli.batStyle = 'right-handed';
 
 console.log(viratKohli.runs);
+console.log(viratKohli.umpire());
 
 sachinTendulkar = new player;
 sachinTendulkar.runs = 15566;
 sachinTendulkar.batStyle = 'right-handed';
 
 console.log(sachinTendulkar.runs);
+
+
+
 
 
 
