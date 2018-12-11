@@ -164,28 +164,48 @@
 // document.getElementById('test').innerHTML = player.name;
 
 
-var umpire = function(){
-    return('umpire\'s are always right');
-}
+// var umpire = function(){
+//     return('umpire\'s are always right');
+// }
 
-var player = function(){
-    var runs, batStyle;
-}
+// var player = function(){
+//     var runs, batStyle;
+// }
 
 
-player.prototype.umpire = umpire;
-viratKohli = new player;
-viratKohli.runs = 6553;
-viratKohli.batStyle = 'right-handed';
+// player.prototype.umpire = umpire;
+// viratKohli = new player;
+// viratKohli.runs = 6553;
+// viratKohli.batStyle = 'right-handed';
 
-console.log(viratKohli.runs);
-console.log(viratKohli.umpire());
+// console.log(viratKohli.runs);
+// console.log(viratKohli.umpire());
 
-sachinTendulkar = new player;
-sachinTendulkar.runs = 15566;
-sachinTendulkar.batStyle = 'right-handed';
+// sachinTendulkar = new player;
+// sachinTendulkar.runs = 15566;
+// sachinTendulkar.batStyle = 'right-handed';
 
-console.log(sachinTendulkar.runs);
+// console.log(sachinTendulkar.runs);
+
+
+// var gym = function(workout){
+//     console.log(workout);
+//     console.log(this.benchPress);
+// }
+
+// gym('deadLift');
+
+// var lift = {benchPress: '2 sets',squats: '4 sets'};
+
+// gym.call(lift,lift.squats);
+// gym.apply(lift,['fly']);
+
+
+
+
+
+
+
 
 
 
