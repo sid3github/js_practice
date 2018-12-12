@@ -201,6 +201,16 @@
 // gym.apply(lift,['fly']);
 
 
+// var doSomething = function(work){
+//     console.log(work);
+// }
+
+// doSomething('pushUps');
+
+
+//creating new nodes in DOM.
+var newList = document.createElement('li');
+newList.innerHTML = 'This is list four created by javascript';
 
 
 
@@ -226,5 +236,15 @@
 
 
 
-// document.getElementById('test').innerHTML = ;
+
+
+
+
+
+
+
+
+
+
+// document.getElementById('test').innerHTML = 'I like to code!';
 
