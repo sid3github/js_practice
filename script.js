@@ -212,10 +212,13 @@
 var newList = document.createElement('li');
 newList.innerHTML = 'This is list four created by javascript';
 
+document.getElementById('change').appendChild(newList);
 
 
+var newPara = document.createElement('p');
+newPara.innerHTML = 'This is just an example of paragraph by javascript!';
 
-
+document.getElementById('content').appendChild(newPara);
 
 
 
