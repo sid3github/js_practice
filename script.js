@@ -209,17 +209,28 @@
 
 
 //creating new nodes in DOM.
-var newList = document.createElement('li');
-newList.innerHTML = 'This is list four created by javascript';
+// var newList = document.createElement('li');
+// newList.innerHTML = 'This is list four created by javascript';
 
-document.getElementById('change').appendChild(newList);
+// document.getElementById('change').appendChild(newList);
 
 
-var newPara = document.createElement('p');
-newPara.innerHTML = 'This is just an example of paragraph by javascript!';
+// var newPara = document.createElement('p');
+// newPara.innerHTML = 'This is just an example of paragraph by javascript!';
 
-document.getElementById('content').appendChild(newPara);
+// document.getElementById('content').appendChild(newPara);
 
+
+function myFunction(){
+    var x = document.forms['myForm'];
+    var text = '';
+    var i;
+    for (i = 0; i < x.length; i++){
+        text = text + x[i].value + '<br>';
+    }
+    
+    document.getElementById('content').innerHTML = text;
+}
 
 
 
