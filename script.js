@@ -221,20 +221,29 @@
 // document.getElementById('content').appendChild(newPara);
 
 
-function myFunction(){
-    var x = document.forms['myForm'];
-    var text = '';
-    var i;
-    for (i = 0; i < x.length; i++){
-        text = text + x[i].value + '<br>';
-    }
+//Grabbing form content in javascript
+// function myFunction(){
+//     var x = document.forms['myForm'];
+//     var text = '';
+//     var i;
+//     for (i = 0; i < x.length; i++){
+//         text = text + x[i].value + '<br>';
+//     }
     
-    document.getElementById('content').innerHTML = text;
+//     document.getElementById('content').innerHTML = text;
+// }
+
+
+//Binding on mouse events.
+function mDown(obj){
+    obj.style.backgroundColor = 'blue';
+    obj.innerHTML = 'you clicked down!';
 }
 
-
-
-
+function mUp(element){
+    element.style.backgroundColor = 'red';
+    element.innerHTML = 'you clicked up!';    
+}
 
 
 
